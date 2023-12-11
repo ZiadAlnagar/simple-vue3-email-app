@@ -48,7 +48,7 @@ const emit = defineEmits(["closeView"]);
 
 const closeView = () => emit("closeView");
 
-useEmailKeyboardActions(props.email.id, closeView);
+useEmailKeyboardActions({ closeView }, props.email.id);
 
 const dispatcher = useEmailDispatcher();
 

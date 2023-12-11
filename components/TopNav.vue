@@ -21,7 +21,7 @@
       </Button>
       <Button
         class="TopNav-Action"
-        @click.prevent="dispatcher(selectedEmailIds, 'archive')"
+        @click.prevent="handleArchiveClick(selectedEmailIds)"
       >
         <template #icon>
           <IconTrash />
@@ -43,21 +43,31 @@ const props = defineProps<Props>();
 
 const dispatcher = useEmailDispatcher();
 
-const { setIsChecked } = useEmailStore();
+const { setIsChecked, resetChecked } = useEmailStore();
 
 const allEmailIds = computed(() => props.emails.map(({ id }) => id));
 const selectedEmailIds = computed(() => props.selected.map(({ id }) => id));
 
-const { replaceIds } = useEmailKeyboardActions();
+const { replaceIds } = useEmailKeyboardActions({
+  setIsChecked: () => (isChecked.value = false),
+});
 
 const isChecked: Ref<boolean> = ref(false);
 
 const handleSelectAll = () => {
   if (!isChecked.value) {
     setIsChecked(allEmailIds.value, false);
-  } else setIsChecked(allEmailIds.value, true);
+  } else {
+    setIsChecked(allEmailIds.value, true);
+  }
 
   replaceIds(selectedEmailIds.value);
+};
+
+const handleArchiveClick = (ids: number[]) => {
+  dispatcher(ids, "archive");
+  resetChecked();
+  isChecked.value = false;
 };
 
 watch(selectedEmailIds, (to, from) => {

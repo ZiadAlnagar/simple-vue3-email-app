@@ -35,6 +35,12 @@ export const useEmailStore = defineStore({
         this.emails[index].isChecked = isChecked;
       });
     },
+    resetChecked() {
+      this.emails = this.emails.map((email) => ({
+        ...email,
+        isChecked: false,
+      }));
+    },
     getEmail(id: number) {
       return this.emails.find((email) => email.id === id);
     },

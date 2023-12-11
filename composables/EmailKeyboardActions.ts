@@ -1,6 +1,11 @@
 import { useEmailDispatcher } from "./EmailDispatcher";
 
-export const useEmailKeyboardActions = (id?: number, closeView?: Function) => {
+export const useEmailKeyboardActions = (
+  options?: { closeView?: Function; setIsChecked?: Function },
+  id?: number,
+) => {
+  const { closeView, setIsChecked } = options ?? {};
+
   const idsRef: Ref<number[]> = ref([]);
 
   if (id) idsRef.value = [id];
@@ -20,8 +25,13 @@ export const useEmailKeyboardActions = (id?: number, closeView?: Function) => {
 
     if (key === "a") {
       dispatcher(idsRef.value, "archive");
+      const { resetChecked } = useEmailStore();
 
-      if (closeView) closeView();
+      if (closeView) return closeView();
+
+      resetChecked();
+
+      if (setIsChecked) setIsChecked();
     }
   };
 
