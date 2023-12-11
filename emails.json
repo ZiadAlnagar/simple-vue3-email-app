@@ -1,0 +1,204 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "subject": "Email 1",
+      "message": "This is the message for Email 1",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 2,
+      "subject": "Email 2",
+      "message": "This is the message for Email 2",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 3,
+      "subject": "Email 3",
+      "message": "This is the message for Email 3",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 4,
+      "subject": "Email 4",
+      "message": "This is the message for Email 4",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 5,
+      "subject": "Email 5",
+      "message": "This is the message for Email 5",
+      "folder": "ARCHIVE",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 6,
+      "subject": "Email 6",
+      "message": "This is the message for Email 6",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 7,
+      "subject": "Email 7",
+      "message": "This is the message for Email 7",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 8,
+      "subject": "Email 8",
+      "message": "This is the message for Email 8",
+      "folder": "ARCHIVE",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 9,
+      "subject": "Email 9",
+      "message": "This is the message for Email 9",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 10,
+      "subject": "Email 10",
+      "message": "This is the message for Email 10",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 11,
+      "subject": "Email 11",
+      "message": "This is the message for Email 11",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 12,
+      "subject": "Email 12",
+      "message": "This is the message for Email 12",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 13,
+      "subject": "Email 13",
+      "message": "This is the message for Email 13",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 14,
+      "subject": "Email 14",
+      "message": "This is the message for Email 14",
+      "folder": "ARCHIVE",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 15,
+      "subject": "Email 15",
+      "message": "This is the message for Email 15",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 16,
+      "subject": "Email 16",
+      "message": "This is the message for Email 16",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 17,
+      "subject": "Email 17",
+      "message": "This is the message for Email 17",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 18,
+      "subject": "Email 18",
+      "message": "This is the message for Email 18",
+      "folder": "INBOX",
+      "isRead": false,
+      "isChecked": false
+    },
+    {
+      "id": 19,
+      "subject": "Email 19",
+      "message": "This is the message for Email 19",
+      "folder": "ARCHIVE",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 20,
+      "subject": "Email 20",
+      "message": "This is the message for Email 20",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 21,
+      "subject": "Email 21",
+      "message": "This is the message for Email 21",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 22,
+      "subject": "Email 22",
+      "message": "This is the message for Email 22",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 23,
+      "subject": "Email 23",
+      "message": "This is the message for Email 23",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 24,
+      "subject": "Email 24",
+      "message": "This is the message for Email 24",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    },
+    {
+      "id": 25,
+      "subject": "Email 25",
+      "message": "This is the message for Email 25",
+      "folder": "INBOX",
+      "isRead": true,
+      "isChecked": false
+    }
+  ]
+}
